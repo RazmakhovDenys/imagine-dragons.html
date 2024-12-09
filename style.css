@@ -1,0 +1,129 @@
+header {
+    background-image: linear-gradient(rgb(126, 21, 21), rgb(179, 27, 27), rgb(207, 18, 18), rgb(255, 255, 255));
+    padding: 8px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ImagineDragonh1 {
+    font-size: 25px; 
+}
+
+section p {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    background-image: linear-gradient(rgb(126, 21, 21), rgb(179, 27, 27), rgb(207, 18, 18), rgb(255, 255, 255), rgb(207, 18, 18), rgb(179, 27, 27),rgb(126, 21, 21));
+}
+
+section {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Believer {
+    position: relative;
+    background-image: linear-gradient(to right, orange, lightgreen, lightblue);
+    padding: 8px;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    bottom: 100%;
+}
+
+.Thunder {
+    position: relative; 
+    background-image: linear-gradient(pink, rgb(107, 107, 255), lightblue);
+    padding: 8px;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    left: 300px;
+    bottom: 109%;
+}
+
+.Natural {
+    position: relative; 
+    background-image: linear-gradient(rgb(160, 12, 12), rgb(108, 0, 0), black);
+    padding: 8px;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    left: 600px;
+    bottom: 215%;
+}
+
+.Sharks {
+    position: relative; 
+    background-image: linear-gradient(#0f0d41, #1d03b2, rgb(82, 63, 212));
+    padding: 8px;
+    border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    left: 900px;
+    bottom: 321%;
+}
+
+h2 {
+    text-align: center; 
+    font-family: fantasy;
+    margin-top: 50px;
+    border-bottom: 1px double black;
+}
+
+table {
+    border: 2px solid black;
+    justify-content: center;
+}
+
+tr {
+    border: 2px solid black;
+    justify-content: center;  
+}
+
+td {
+    border: 2px solid black;
+    justify-content: center;   
+    padding: 15px; 
+}
+
+.tikets {
+    position: absolute;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid lawngreen;
+    background-color: lawngreen;
+    color: darkgreen;
+    text-align: center;
+    border-radius: 20px;
+    bottom: -500px;
+}
+
+.tikets:hover {
+    background-color: rgb(10, 61, 10);
+    color: lawngreen;
+    border: 1px solid rgb(10, 61, 10);
+}
+
+.tikets:focus {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.img {
+    display: block;
+    justify-self: center;
+    width: 500px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+footer p{
+    position: absolute;
+    top: -150px;
+}
