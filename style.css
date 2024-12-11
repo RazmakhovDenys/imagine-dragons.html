@@ -124,6 +124,5 @@ td {
 }
 
 footer p{
-    position: absolute;
-    top: -150px;
+    position: relative; 
 }
